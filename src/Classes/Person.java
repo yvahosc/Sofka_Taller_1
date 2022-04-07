@@ -198,7 +198,7 @@ public class Person {
     /**
      * Representa el método para obtener la información de un objeto de la
      * clase persona en por medio de un string con una estructura definida
-     * @return Un String con la información de a una persona correspondiente 
+     * @return Un String con la información de una persona correspondiente
      * a una instancia de la clase persona
      */
     @Override
