@@ -9,7 +9,7 @@ import java.time.LocalDate;
 public class BankAccount {
 
     /**
-     * Representa un objeto de la clase persona a la que pertenece una
+     * Representa un objeto de la clase Person a la que pertenece una
      * cuenta bancaria que corresponde a una instancia de la clase BankAccount
      */
     public Person person;
