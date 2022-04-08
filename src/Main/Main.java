@@ -1,10 +1,26 @@
 package Main;
 
-import Classes.*;
+import Classes.Person;
+import Classes.ContactInformation;
+import Classes.BankAccount;
+import Classes.Fruit;
+import Classes.AdditionalFruitInformation;
+import Classes.Buy;
 
 import java.util.ArrayList;
 
+/**
+ * Representa la clase principal del código, instancia y prueba la creación
+ * de las clases.
+ * @autor Yeisson Augusto Vahos Cortes
+ */
 public class Main {
+
+    /**
+     * Representa el método por medio del cual se instancia las clases
+     * creadas y verifica la creación de las clases requeridas en el taller
+     * @param args
+     */
     public static void main(String[] args) {
         Person person1 = new Person(111111111, "Yeisson", "Vahos", "Cortes");
         System.out.println("Objeto clase persona\n" + "Persona 1\n" +
@@ -68,6 +84,25 @@ public class Main {
                 additionalFruitInformation1, additionalFruitInformation2, buy1);
     }
 
+    /**
+     * Representa el método que valida la creación de las clases requeridas
+     * en el taller
+     * @param person1 Representa un objeto de la clase Person
+     * @param person2 Representa un objeto de la clase Person
+     * @param bankAccount1 Representa un objeto de la clase BankAccount
+     * @param bankAccount2 Representa un objeto de la clase BankAccount
+     * @param contactInformation1 Representa un objeto de la clase
+     *                            ContactInformation
+     * @param contactInformation2 Representa un objeto de la clase
+     *                            ContactInformation
+     * @param fruit1 Representa un objeto de la clase Fruit
+     * @param fruit2 Representa un objeto de la clase Fruit
+     * @param additionalFruitInformation1 Representa un objeto de la clase
+     *                                    AdditionalFruitInformation
+     * @param additionalFruitInformation2 Representa un objeto de la clase
+     *                                    AdditionalFruitInformation
+     * @param buy1 Representa un objeto de la clase Buy
+     */
     public static void verification(Person person1, Person person2,
                                     BankAccount bankAccount1,
                                     BankAccount bankAccount2,
@@ -130,6 +165,4 @@ public class Main {
             }
         }
     }
-
-
 }
